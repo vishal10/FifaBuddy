@@ -1,0 +1,147 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
+    tools:context=".FifaBuddy_StatisticsActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/statistics_welcomeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="USER&apos;S STATISTICS"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_Games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Number of Games :  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_Wins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Number of Wins :     "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_Losses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Number of Losses : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_Draws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Number of Draws :  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_GoalsFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Goals Scored :       "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_GoalsAgainst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Goals Conceded :   "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/statistics_Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="Points :                   "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dip" >
+
+        <Button
+            android:id="@+id/viewResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View result history" />
+    </TableRow>
+
+</TableLayout>

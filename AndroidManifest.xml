@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fifabuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_HomePageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_UserProfileActivity"
+            android:label="@string/title_activity_fifa_buddy__user_profile" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_TableActivity"
+            android:label="@string/title_activity_fifa_buddy__table" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_FriendsActivity"
+            android:label="@string/title_activity_fifa_buddy__friends" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_AddFriendActivity"
+            android:label="@string/title_activity_fifa_buddy__add_friend" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_FriendProfileActivity"
+            android:label="@string/title_activity_fifa_buddy__friend_profile" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_RegisterActivity"
+            android:label="@string/title_activity_fifa_buddy__register" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_ResultActivity"
+            android:label="@string/title_activity_fifa_buddy__result" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_PendingResultsActivity"
+            android:label="@string/title_activity_fifa_buddy__pending_results" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_StatisticsActivity"
+            android:label="@string/title_activity_fifa_buddy__statistics" >
+        </activity>
+        <activity
+            android:name="com.example.fifabuddy.FifaBuddy_ViewResultsActivity"
+            android:label="@string/title_activity_view_results" >
+        </activity>
+    </application>
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="false" />
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fifa Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fifa_buddy__user_profile">FifaBuddy_UserProfileActivity</string>
+    <string name="title_activity_fifa_buddy__table">FifaBuddy_TableActivity</string>
+    <string name="title_activity_fifa_buddy__friends">FifaBuddy_FriendsActivity</string>
+    <string name="title_activity_fifa_buddy__add_friend">FifaBuddy_AddFriendActivity</string>
+    <string name="title_activity_fifa_buddy__friend_profile">FifaBuddy_FriendProfileActivity</string>
+    <string name="title_activity_fifa_buddy__register">FifaBuddy_RegisterActivity</string>
+    <string name="title_activity_fifa_buddy__result">FifaBuddy_ResultActivity</string>
+    <string name="title_activity_fifa_buddy__pending_results">FifaBuddy_PendingResultsActivity</string>
+    <string name="title_activity_fifa_buddy__statistics">FifaBuddy_StatisticsActivity</string>
+    <string name="title_activity_view_results">ViewResultsActivity</string>
+
+</resources>
